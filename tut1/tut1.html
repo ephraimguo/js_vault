@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tut1</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 100px;
+            background-color: #ccc;
+            border: 1px solid #999;
+            display: none;
+        }
+    </style>
+    <link rel="script" href="tut1.js">
+</head>
+<body>
+<input type="checkbox" id='check' onmouseover="div1.style.display='block'" onmouseleave="div1.style.display='none'"><label for="check">自动登录</label>
+<div id="div1">
+    为了您的信息安全，请不要随意勾选
+</div>
+
+<!--<input type="button" value="Button" onclick="alert('yeah clicked')" >-->
+</body>
+</html>
