@@ -2,9 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>chooseall ignoreall reverse</title>
+    <script>
+        window.onload = function(){
+            function chooseAll() {
+                var divs = document.getElementById('div1');
+                var aCh = divs.getElementsByTagName('input')
+
+                for(var i = 0; i<aCh.length; i++){
+                    aCh[i].checked = 'checked';
+                }
+
+            }
+            var btn = document.getElementById('btn');
+
+            btn.onclick = chooseAll;
+
+        }
+    </script>
+
 </head>
 <body>
+<form action="">
+
+<input type="button" id="btn"  value="chooseall"><br>
+<div id="div1">
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+    <input type="checkbox" class="boxes" value="box" />test box<br>
+</div>
+</form>
+
 
 </body>
 </html>
