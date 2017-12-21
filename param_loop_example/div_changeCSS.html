@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div change css</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+    <script >
+        // 我自己的code 开始
+        // function setCss(style, value){
+        //     var oDiv = document.getElementById('div1')
+        //     this.style = style;
+        //     this.value = value;
+        //     if(this.style == 'width'){
+        //         oDiv.style.width = this.value;
+        //     }
+        //     else if(this.style == 'height'){
+        //         oDiv.style.height = this.value;
+        //     }
+        //     else {
+        //         oDiv.style.backgroundColor = this.value;
+        //     }
+        // }
+        //    我自己的code 结束
+
+        //使用 oDiv['value']的方式修改这个属性
+        function setCss(name, value){
+            var oDiv = document.getElementById('div1');
+
+            oDiv.style[name] = value;
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="change width" onclick="setCss('width', '500px')">
+<input type="button" value="change height" onclick="setCss('height', '400px')">
+<input type="button" value="change green" onclick="setCss('backgroundColor', 'green')">
+<div id="div1"></div>
+</body>
+</html>

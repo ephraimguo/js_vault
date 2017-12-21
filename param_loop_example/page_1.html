@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page1</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+    <script>
+        // function toGreen(){
+        //     var oDiv = document.getElementById('div1');
+        //
+        //     oDiv.style.backgroundColor = 'green';
+        // }
+        //
+        // function toYellow(){
+        //     var oDiv = document.getElementById('div1');
+        //
+        //     oDiv.style.backgroundColor = 'yellow';
+        // }
+        //
+        // function toBlack(){
+        //     var oDiv = document.getElementById('div1');
+        //
+        //     oDiv.style.backgroundColor = 'black';
+        // }
+        function setColor(color){
+            var oDiv = document.getElementById('div1')
+
+            oDiv.style.backgroundColor = color;
+        }
+
+    </script>
+</head>
+<body>
+<input type="button" value="change green" onclick="setColor('green')">
+<input type="button" value="change yellow" onclick="setColor('yellow')">
+<input type="button" value="change black" onclick="setColor('black')">
+<div  id="div1"></div>
+</body>
+</html>

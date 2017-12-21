@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>change css demo</title>
+    <link id="l1" rel="stylesheet" href="c2.css" type="text/css">
+    <script rel="script" src="tut1.js">
+        function skin_1(){
+            var oL = document.getElementById('l1');
+
+            oL.href = 'c1.css';
+        }
+        function skin_2(){
+        var oL = document.getElementById('l1');
+
+        oL.href = 'c2.css';
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="1st css" onclick="skin_1()">
+<input type="button" value="2nd css" onclick="skin_2()">
+
+<!--<a href="javascript: alert('js inside anchor tag')">link</a>-->
+<input type="button" onclick="show_hide()">
+
+<div id="div_1"></div>
+
+<input type="button" value="change color" onclick="to_red()">
+<div class="div_2" id="div_2"></div>
+</body>
+</html>
