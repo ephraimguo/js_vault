@@ -5,18 +5,45 @@
     <title>chooseall ignoreall reverse</title>
     <script>
         window.onload = function(){
+            var divs = document.getElementById('div1');
+            var aCh = divs.getElementsByTagName('input');
+
+
             function chooseAll() {
-                var divs = document.getElementById('div1');
-                var aCh = divs.getElementsByTagName('input')
 
                 for(var i = 0; i<aCh.length; i++){
-                    aCh[i].checked = 'checked';
+                    aCh[i].checked = true;
                 }
 
             }
-            var btn = document.getElementById('btn');
 
-            btn.onclick = chooseAll;
+            function cancelAll() {
+
+                for(var i = 0; i<aCh.length; i++){
+                    aCh[i].checked = false;
+                }
+
+            }
+
+            function rev(){
+                for(var i = 0; i<aCh.length; i++){
+                    if(aCh[i].checked){
+                        aCh[i].checked = false;
+                    }
+                    else{
+                        aCh[i].checked = true;
+                    }
+                }
+            }
+
+            var btn1 = document.getElementById('btn1');
+            btn1.onclick = chooseAll;
+
+            var btn2 = document.getElementById('btn2');
+            btn2.onclick = cancelAll;
+
+            var btn3 = document.getElementById('btn3');
+            btn3.onclick = rev;
 
         }
     </script>
@@ -25,7 +52,11 @@
 <body>
 <form action="">
 
-<input type="button" id="btn"  value="chooseall"><br>
+<input type="button" id="btn1"  value="chooseall"><br>
+<input type="button" id="btn2"  value="cancelall"><br>
+<input type="button" id="btn3"  value="reverse"><br>
+
+
 <div id="div1">
     <input type="checkbox" class="boxes" value="box" />test box<br>
     <input type="checkbox" class="boxes" value="box" />test box<br>

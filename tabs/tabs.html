@@ -2,9 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>tabs</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #div1 .active{
+            background-color: yellow;
+        }
+        #div1 div{
+            width: 160px;
+            height: 200px;
+            border: 1px solid #999;
+            background-color: #cccccc;
+            display: none;
+        }
+
+    </style>
+    <script>
+        window.onload = function(){
+            var oDiv = document.getElementById('div1');
+            var aBtn = oDiv.getElementsByTagName('input');
+            var aDiv = oDiv.getElementsByTagName('div');
+
+            // function showDiv(){
+            //     alert(this.value);
+            // }
+
+            for(var i=0; i<aBtn.length; i++){
+                aBtn[i].index = i;
+                aBtn[i].onclick = function(){
+
+                    for(var j=0; j<aBtn.length; j++){
+                        aBtn[j].className = '';
+                        aDiv[j].style.display = 'none';
+                    }
+                    this.className = 'active';
+                    // alert(this.index);
+                    aDiv[this.index].style.display = 'block';
+                }
+
+            }
+
+        }
+
+    </script>
 </head>
 <body>
-$END$
+<div id="div1">
+    <input class='active' type="button" value="Edu" />
+    <input type="button" value="Tut" />
+    <input type="button" value="Rec" />
+    <input type="button" value="Abd" />
+    <div style="display:block">adsfasdfasdf</div>
+    <div>HETHTHEHEH</div>
+    <div>adfgsdfADFGDSdfhfg</div>
+    <div>435638536742565346</div>
+</div>
 </body>
 </html>

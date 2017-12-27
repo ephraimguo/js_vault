@@ -2,9 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #tab{
+            width: auto;
+        }
+        ul{
+            width: 210px;
+            height: 400px;
+            box-sizing: content-box;
+            border: 3px #a3a3a3 solid;
+            margin: auto;
+        }
+        /*ul div{*/
+            /*margin: auto;*/
+        /*}*/
+        li{
+            list-style-type: none;
+            display: inline-block;
+            width:70px;
+            height: 60px;
+            box-sizing: border-box;
+            border: #a3a3a3 solid 3px;
+            float: left;
+        }
+        .active{
+            background: #ff9934;
+            color: aquamarine;
+        }
+
+        #div1{
+            width: 210px;
+            height: 160px;
+            border: 1px solid red;
+            float: left;
+        }
+    </style>
+    <script>
+        window.onload = function(){
+            var oDiv = document.getElementById('tab');
+            var in_Div = document.getElementById('list-div');
+            var aLi = oDiv.getElementsByTagName('li');
+            var oTxt = document.getElementById('div1');
+
+            var arr = [
+                '大家要去哪里玩啊，都快过年了',
+                '你找到女朋友了吗',
+                '你一个月多少钱啊',
+                '有房有车吗',
+                '生男孩儿还是女孩儿',
+                '女朋友多少岁',
+                '期末成绩怎么样啊',
+                '嘿嘿嘿',
+                '有没有压岁钱',
+                '还没我对门的阿姨挣钱多',
+                '算了吧好好过年',
+                '不生气不生气',
+            ]
+
+            for(var i=0; i<aLi.length; i++){
+                aLi[i].index = i; //给这个aLi加上一个编号
+                aLi[i].onmouseover = function(){
+                    for(var i=0; i<aLi.length; i++){
+                        aLi[i].className = '';
+                    }
+                    this.className = 'active';
+                    oTxt.innerHTML = '<h2>'+(this.index+1)+'月活动</h2><p>'+arr[this.index]+'</p>'
+                }
+
+            }
+
+            // function chg_ctn(){
+            //     in_Div.innerHTML = 'this is change content';
+            // }
+
+
+        }
+    </script>
 </head>
+
+
 <body>
-$END$
+
+<div id="tab" class="calendar">
+    <ul>
+        <div id="list-div">
+            <li class="active"><h2>1</h2><p>JAN</p></li>
+            <li><h2>2</h2><p>FEB</p></li>
+            <li><h2>3</h2><p>MAR</p></li>
+            <li><h2>4</h2><p>APR</p></li>
+            <li><h2>5</h2><p>MAY</p></li>
+            <li><h2>6</h2><p>JUN</p></li>
+            <li><h2>7</h2><p>JUL</p></li>
+            <li><h2>8</h2><p>AUT</p></li>
+            <li><h2>9</h2><p>SEP</p></li>
+            <li><h2>10</h2><p>OCT</p></li>
+            <li><h2>11</h2><p>NOV</p></li>
+            <li><h2>12</h2><p>DEC</p></li>
+        </div>
+        <div id="div1">
+
+        </div>
+    </ul>
+
+</div>
 </body>
 </html>
