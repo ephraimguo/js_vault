@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>var_type</title>
+    <script>
+        window.onload = function(){
+            var jia = document.getElementById('jiashu');
+            var beijia = document.getElementById('beijiashu');
+            var eql = document.getElementById('dengyu');
+
+            eql.onclick = function(){
+                var a = parseInt(jia.value);
+                var b = parseInt(beijia.value);
+
+                if(isNaN(a)){
+                    alert('ple key in a number');
+                }
+                else if(isNaN(b)){
+                    alert('ple key in a number');
+                }
+                else{
+                    alert(a+b);
+                }
+            }
+
+        }
+    </script>
+</head>
+<body>
+<input type="text" id="jiashu"name="" id="">
+<input type="text" id="beijiashu">
+<input type="button" id="dengyu" value="sum">
+
+</body>
+</html>
