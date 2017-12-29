@@ -9,8 +9,14 @@
             height:100px;
             background-color: blueviolet;
         }
-
     </style>
+    <script>
+        window.onload=function(){
+            var oDiv = document.getElementById('div1');
+            oDiv_style = getComputedStyle(oDiv);
+            alert(oDiv_style.width);
+        }
+    </script>
 
 </head>
 <body>
@@ -18,11 +24,5 @@
     <p>this is a div</p>
 </div>
 </body>
-<script>
-    window.onload=function(){
-        var oDiv = document.getElementById('div1');
-        oDiv_style = getComputedStyle(oDiv);
-        alert(oDiv_style.width);
-    }
-</script>
+
 </html>
