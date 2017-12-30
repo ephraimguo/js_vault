@@ -3,7 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>test</title>
+    <style>
+        #div1{
+            width: 100px;
+            height: 100px;
+            background-color: #a3a3a3;
+        }
+    </style>
 
+
+    <script>
+//        str = 'abcdefg';
+//        alert(str.slice(0, str.length-2));
+
+        var oDiv = document.getElementById('div1');
+        var s = window.getComputedStyle(oDiv,false);
+        var w = s.width;
+        alert(w);
+    </script>
 
 </head>
 <body>
@@ -11,6 +28,8 @@
 <input type="checkbox" aria-selected="true"/><br>
 
 
-<div></div>
+<div id='div1'class="testing">
+
+</div>
 </body>
 </html>

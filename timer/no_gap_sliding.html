@@ -2,9 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>sliding</title>
+    <style>
+        #container{
+            width: 100px;
+            height: 100px;
+            background-color: #ff9934;
+            margin: 0;
+        }
+    </style>
+
+    <script>
+        function getNum(sty_1){
+            num = sty_1.slice(0, sty_1.length-2);
+            return num
+        }
+
+        window.onload =function () {
+
+
+//            var oDiv = document.getElementById('container');
+//            var w = getComputedStyle(oDiv, 'width');
+//            var h = getComputedStyle(oDiv,'height');
+
+            setInterval(function(){
+                var oDiv = document.getElementById('container');
+                var w = getComputedStyle(oDiv, 'width');
+                var h = getComputedStyle(oDiv,'height');
+
+
+
+
+            },50)
+
+        }
+    </script>
+
 </head>
 <body>
-$END$
+
+<div id="container"></div>
+
 </body>
 </html>
