@@ -9,12 +9,14 @@
             height: 100px;
             background-color: #ff9934;
             margin: 0;
+            position: absolute;
+            left: 0;
         }
     </style>
 
     <script>
         function getNum(sty_1){
-            num = sty_1.slice(0, sty_1.length-2);
+            num = parseInt(sty_1.slice(0, sty_1.length-2));
             return num
         }
 
@@ -27,12 +29,13 @@
 
             setInterval(function(){
                 var oDiv = document.getElementById('container');
-                var w = getComputedStyle(oDiv, 'width');
-                var h = getComputedStyle(oDiv,'height');
+                var s = getComputedStyle(oDiv, null);
+//                alert(s);
 
-
-
-
+                var w = s.width;
+                var left = s.left;
+//                alert(w);
+                document.getElementById('container').style.left = getNum(left) + 5 + 'px';
             },50)
 
         }
