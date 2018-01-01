@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>slider</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            margin-top: 50px;
+            position: relative;
+            /*border: 1px solid blue;*/
+        }
+
+        #slider{
+            margin: auto;
+            height: 108px;
+            width: 712px;
+            position: relative;
+            overflow: hidden;
+            background-color: #ff9934;
+        }
+
+        ul{
+            display: block;
+            /*margin:auto;*/
+            width: 712px;
+            float: left;
+            position: absolute;
+            /*border: 1px solid blue;*/
+
+
+        }
+
+        div ul li {
+            display: inline-block;
+            float: left;
+            list-style: none;
+            margin:0;
+            position: relative;
+        }
+
+        #clear{
+            clear: both;
+        }
+
+
+    </style>
+
+    <script>
+        window.onload = function(){
+            var oDiv = document.getElementById('container');
+            var oUl = document.getElementById('imgs');
+            var aLi = oDiv.getElementsByTagName('li');
+            var btn = document.getElementsByTagName('input');
+            var btn_l = btn[0];
+            var btn_r = btn[1];
+
+//            alert(aLi.length);
+
+            oUl.innerHTML = oUl.innerHTML + oUl.innerHTML;
+            oUl.style.width = aLi.length * aLi[0].offsetWidth + 'px';
+            speed = 3;
+
+
+            btn_l.onclick = function(){
+                speed = -3;
+            }
+
+            btn_r.onclick = function(){
+                speed = 3;
+            }
+
+            timer = setInterval(function (){
+                oUl.style.left = oUl.offsetLeft + speed +'px';
+                if (oUl.offsetLeft >= 0) {
+                    oUl.style.left = -oUl.offsetWidth/2 + 'px';
+                }
+                else if (oUl.offsetLeft < -oUl.offsetWidth / 2) {
+                    oUl.style.left = 0 + 'px';
+                }
+            }, 50);
+
+        }
+
+    </script>
+
+
+
+</head>
+<body>
+<div id="button" style="margin:auto; width:100px; height: 100px;">
+<input type="button" value="left">
+<input type="button" value="right">
+</div>
+
+<div id="container">
+<div id="slider">
+    <ul id="imgs">
+        <li><img src="images/1.jpg" alt=""></li>
+        <li><img src="images/2.jpg" alt=""></li>
+        <li><img src="images/3.jpg" alt=""></li>
+        <li><img src="images/4.jpg" alt=""></li>
+
+    </ul>
+</div>
+<div id="clear"></div>
+
+</div>
+
+</body>
+</html>
