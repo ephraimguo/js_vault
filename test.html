@@ -8,6 +8,8 @@
             width: 100px;
             height: 100px;
             background-color: #a3a3a3;
+            left: 0;
+            top:50px;
         }
     </style>
 
@@ -15,11 +17,15 @@
     <script>
 //        str = 'abcdefg';
 //        alert(str.slice(0, str.length-2));
+        window.onload = function () {
+            var div_1 = document.getElementById('div1');
+            div_1.onclick = function () {
+//                alert(this.offsetLeft);
+                this.offsetLeft = this.offsetLeft + 10;
+            }
+        }
 
-        var oDiv = document.getElementById('div1');
-        var s = window.getComputedStyle(oDiv,false);
-        var w = s.width;
-        alert(w);
+
     </script>
 
 </head>
