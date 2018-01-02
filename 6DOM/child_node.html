@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>childnode</title>
+    <script>
+        window.onload = function () {
+            var oUl = document.getElementById('ul1');
+
+            // alert(oUl.childNodes.length);
+            for(var i=0; i<oUl.childNodes.length; i++){
+                // alert(oUl.childNodes[i].nodeType);
+                if(oUl.childNodes[i].nodeType == 1){
+                    oUl.childNodes[i].style.backgroundColor = 'red';
+                }
+            }
+        }
+
+        
+    </script>
+    
+</head>
+<body>
+<ul id="ul1">
+    <li></li>
+    <li></li>
+</ul>
+</body>
+</html>

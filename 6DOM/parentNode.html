@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>parent node</title>
+    <script>
+        window.onload = function () {
+            var oUl = document.getElementById('ul1');
+            var aLi = document.getElementsByTagName('li');
+            var aA = document.getElementsByTagName('a');
+            // alert(oUl.parentNode);
+
+            for(var i=0; i<aA.length; i++){
+                aA[i].onclick = function () {
+                    this.parentNode.style.display = 'none';
+                }
+            }
+
+        }
+
+
+    </script>
+
+</head>
+<body>
+<ul id="ul1">
+    <li>123123123<a href="">hide</a></li>
+    <li>asdasdasd<a href="">hide</a></li>
+    <li>678678678<a href="">hide</a></li>
+    <li>rtyrtyrty<a href="">hide</a></li>
+</ul>
+</body>
+</html>
