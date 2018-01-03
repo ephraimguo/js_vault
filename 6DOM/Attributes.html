@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attibutes</title>
+    <script>
+        function getByClass(parents, names){
+            var result = [];
+            var oElem = parents.getElementsByTagName('*');
+
+            for(var i=0;i<oElem.length; i++){
+                if(oElem[i].className == names){
+                    result.push(oElem[i]);
+                }
+            }
+            return result;
+        }
+
+        window.onload = function () {
+            // var oTxt = document.getElementById('txt1');
+            // var btn1 = document.getElementById('btn1');
+            //
+            // btn1.onclick = function () {
+            //     oTxt['value'] = 'safdasdfs';
+            // }
+
+            var oUl = document.getElementById('ul1');
+            // var oLi = oUl.getElementsByTagName('li');
+
+            // for(var i=0; i<oLi.length; i++){
+            //     if(oLi[i].className == 'box'){
+            //         oLi[i].style.backgroundColor = 'red';
+            //     }
+            // }
+
+            var res = getByClass(oUl, 'box');
+            for(var i=0; i<res.length; i++){
+                res[i].style.backgroundColor = 'red';
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+<input id="txt1" type="text">
+<input id="btn1" type="button" value="button">
+<ul id="ul1">
+    <li class="box"></li>
+    <li></li>
+    <li class="box"></li>
+    <li></li>
+    <li></li>
+    <li class="box"></li>
+    <li></li>
+    <li class="box"></li>
+    <li></li>
+</ul>
+
+
+
+</body>
+</html>
