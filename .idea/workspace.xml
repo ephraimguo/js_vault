@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f8d439-ad0a-4c9b-8118-cf7acecdd9eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/6DOM/Attributes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/7DOM_operation/createDOMnod.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/6DOM/1stchild.html" afterPath="$PROJECT_DIR$/6DOM/1stchild.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Document Fragment.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/6DOM/Document Fragment.html">
+      <file leaf-file-name="createDOMnod.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7DOM_operation/createDOMnod.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="90">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -76,7 +79,8 @@
         <option value="$PROJECT_DIR$/6DOM/parentNode.html" />
         <option value="$PROJECT_DIR$/6DOM/parent.html" />
         <option value="$PROJECT_DIR$/6DOM/1stchild.html" />
-        <option value="$PROJECT_DIR$/6DOM/Document Fragment.html" />
+        <option value="$PROJECT_DIR$/6DOM/Attributes.html" />
+        <option value="$PROJECT_DIR$/7DOM_operation/createDOMnod.html" />
       </list>
     </option>
   </component>
@@ -87,10 +91,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1130" />
+    <option name="x" value="8" />
     <option name="y" value="22" />
-    <option name="width" value="1151" />
-    <option name="height" value="1362" />
+    <option name="width" value="1659" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -108,23 +112,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JavaScript_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScript_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="js_vault" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_vault" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaScript_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScript_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="6DOM" type="462c0819:PsiDirectoryNode" />
+              <item name="js_vault" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_vault" type="462c0819:PsiDirectoryNode" />
+              <item name="7DOM_operation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -144,388 +148,6 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tut1" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/1basics/Json.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/1basics/arr.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/1basics/concat.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/1basics/css_function.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/1basics/join.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/1basics/local_global_var.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/1basics/switch_statement.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/1basics/variables_types.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/1basics/排序.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/1basics/隐式类型转换.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/1basics/隔行变色.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/2tabs/simple_calendar.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/2tabs/tabs.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/3param_loop_example/byTagName.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/3param_loop_example/chooseall_ignoreall_reverse.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/3param_loop_example/div_changeCSS.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/3param_loop_example/page_1.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/3param_loop_example/page_1.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/3param_loop_example/test.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/4function_event/c1.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/4function_event/c2.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/4function_event/change_css_demo.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/4function_event/tut1.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/4function_event/tut1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/DATE.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/clock.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/images/1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/images/2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/images/3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/images/4.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/images/btn.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/img_sliding.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/无缝滚动图片/images/1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/无缝滚动图片/images/2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/无缝滚动图片/images/3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/无缝滚动图片/images/4.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/无缝滚动图片/images/btn.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/无缝滚动图片/zns.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/无缝滚动图片/zns_demo.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/无缝滚动图片/zns_style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/Date.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/date2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img/0.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img/6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img/7.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img/8.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img/9.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img2/1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img2/2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img2/3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/img2/4.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/offsetLeft.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/字符串.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/定时器.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/定时器2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/定时的开启和关闭.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/延时提示框.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/延时提示框2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/延时提示框3.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/延时提示框4.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/数码时钟.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/数码时钟2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/数码时钟3.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/无缝滚动.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/无缝滚动2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/无缝滚动3.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/无缝滚动4.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/无缝滚动5.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/0.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/7.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/8.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/9.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/five.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/four.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/month.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/one.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/seven.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/sign.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/six.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/three.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/title.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/two.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/week.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/year.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/images/zns.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/js/zns_demo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/style/zns_style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/zns.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/超酷数码钟表/zns_demo.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/记录/运动基础.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/0.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/7.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/8.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/9.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/five.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/four.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/month.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/one.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/seven.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/sign.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/six.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/three.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/title.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/two.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/week.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/year.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/images/zns.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/js/zns_demo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/style/zns_style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/zns.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/no_gap/超酷数码钟表/zns_demo.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/sliding_box.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/timedelay_box.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/timer_1.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/5timer/timer_on_off.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/6DOM/1stchild.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/6DOM/child_node.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/6DOM/parent.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/6DOM/parentNode.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/basics/Json.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/basics/arr.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/basics/concat.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/basics/css_function.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/basics/join.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/basics/local_global_var.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/basics/switch_statement.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/basics/variables_types.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/basics/排序.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/basics/隐式类型转换.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/basics/隔行变色.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/function_event/c1.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/function_event/c2.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/function_event/change_css_demo.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/function_event/tut1.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/function_event/tut1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/param_loop_example/byTagName.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/param_loop_example/chooseall_ignoreall_reverse.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/param_loop_example/div_changeCSS.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/param_loop_example/page_1.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/param_loop_example/page_1.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/param_loop_example/test.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tabs/simple_calendar.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/tabs/tabs.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/DATE.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/clock.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/images/1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/images/2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/images/3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/images/4.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/images/btn.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/img_sliding.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/无缝滚动图片/images/1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/无缝滚动图片/images/2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/无缝滚动图片/images/3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/无缝滚动图片/images/4.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/无缝滚动图片/images/btn.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/无缝滚动图片/zns.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/无缝滚动图片/zns_demo.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/无缝滚动图片/zns_style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/Date.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/date2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img/0.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img/6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img/7.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img/8.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img/9.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img2/1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img2/2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img2/3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/img2/4.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/offsetLeft.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/字符串.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/定时器.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/定时器2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/定时的开启和关闭.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/延时提示框.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/延时提示框2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/延时提示框3.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/延时提示框4.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/数码时钟.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/数码时钟2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/数码时钟3.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/无缝滚动.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/无缝滚动2.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/无缝滚动3.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/无缝滚动4.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/无缝滚动5.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/0.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/7.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/8.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/9.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/five.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/four.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/month.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/one.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/seven.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/sign.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/six.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/three.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/title.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/two.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/week.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/year.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/images/zns.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/js/zns_demo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/style/zns_style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/zns.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/超酷数码钟表/zns_demo.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/记录/运动基础.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/0.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/7.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/8.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/9.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/bg.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/five.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/four.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/month.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/one.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/seven.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/sign.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/six.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/three.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/title.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/two.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/week.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/year.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/images/zns.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/js/zns_demo.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/style/zns_style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/zns.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/no_gap/超酷数码钟表/zns_demo.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/sliding_box.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/timedelay_box.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/timer_1.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/timer/timer_on_off.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -566,7 +188,9 @@
       <workItem from="1514784441364" duration="7350000" />
       <workItem from="1514812449627" duration="372000" />
       <workItem from="1514890178446" duration="1331000" />
-      <workItem from="1514891993003" duration="1000" />
+      <workItem from="1514891993003" duration="19000" />
+      <workItem from="1514958080326" duration="656000" />
+      <workItem from="1514961901532" duration="2910000" />
     </task>
     <task id="LOCAL-00001" summary="deleted tut1 folder">
       <created>1513845761392</created>
@@ -667,47 +291,38 @@
       <updated>1514871624051</updated>
     </task>
     <task id="LOCAL-00015" summary="no gap sliding">
-      <created>1515106395352</created>
+      <created>1514892000666</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1515106395352</updated>
+      <updated>1514892000667</updated>
     </task>
     <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44896000" />
+    <option name="totallyTimeSpent" value="47702000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1130" y="22" width="1151" height="1362" extended-state="0" />
+    <frame x="8" y="22" width="1659" height="973" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20442478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15750916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32517758" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32517758" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32675612" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3257403" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32517758" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3257403" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15750916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -729,7 +344,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tut1/tut1.html" />
     <entry file="file://$PROJECT_DIR$/tut1/tut1.js" />
     <entry file="file://$PROJECT_DIR$/tut1/tut1.html" />
     <entry file="file://$PROJECT_DIR$/tut1/tut1.js" />
@@ -811,13 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2tabs/simple_calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -991,24 +598,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6DOM/parent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6DOM/1stchild.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6DOM/Document Fragment.html">
+    <entry file="file://$PROJECT_DIR$/6DOM/parent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="79">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2tabs/simple_calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6DOM/Attributes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7DOM_operation/createDOMnod.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
