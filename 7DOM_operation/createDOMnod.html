@@ -3,8 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>dom_node</title>
+    <script>
+        window.onload = function(){
+            var oTxt = document.getElementById('txt1');
+            var oBtn1 = document.getElementById('btn1');
+            var oBtn2 = document.getElementById('btn2');
+            var oUl = document.getElementById('ul1');
+            
+            oBtn1.onclick = function () {
+                var oLi = document.createElement('li');
+                oLi.innerHTML = oTxt.value;
+                oUl.insertBefore(oLi, oUl.children[0]);
+
+
+            }
+
+            oBtn2.onclick = function () {
+                var aLi = oUl.getElementsByTagName('li');
+                var res = [];
+                for(var i=0; i<aLi.length; i++){
+                    if(aLi[i].innerHTML == oTxt.value){
+                        res.push(aLi[i]);
+                    }
+                }
+                for(var j=0; j<res.length; j++){
+                    oUl.removeChild(res[j]);
+                }
+            }
+        }
+    </script>
 </head>
 <body>
+<input id="txt1" type="text">
+<input id="btn1" type="button" value="create">
+<input id="btn2" type="button" value="del">
+<ul id="ul1">
+    
+</ul>
 
 </body>
 </html>
