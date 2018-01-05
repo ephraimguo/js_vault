@@ -15,11 +15,13 @@
     </style>
 
     <script>
-        function move() {
+
+        function startMove() {
 
             var oDiv = document.getElementById('div1');
-            var oBtn = document.getElementById('btn1');
-            var speed = 10;
+            // var oBtn = document.getElementById('btn1');
+            var speed = 8;
+            var timer;
             clearInterval(timer);
 
             timer = setInterval(function () {
@@ -32,19 +34,13 @@
             }, 30);
         }
 
-        window.onload = function () {
-
-
-
-        }
-
 
 
 
     </script>
 </head>
 <body>
-<input id="btn1" type="button" value="move" onclick="move()">
+<input id="btn1" type="button" value="move" onclick="startMove()">
 <div id="div1">
 
 </div>

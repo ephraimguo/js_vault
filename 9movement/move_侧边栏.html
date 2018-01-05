@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1{
+            width: 150px;
+            height: 200px;
+            background-color: #ff9934;
+            position: absolute;
+            left: -150px;
+        }
+
+        #trigger{
+            width: 20px;
+            height: 60px;
+            background-color: #999999;
+            position: absolute;
+            line-height: 20px;
+            right: -20px;
+            top: 70px;
+        }
+    </style>
+    <script>
+
+        var timer = null;
+        function shareToOut(){
+            var oTrg = document.getElementById('trigger');
+            var oDiv = document.getElementById('div1');
+            // var oldLeft = oDiv.offsetLeft;
+
+
+            clearInterval(timer);
+
+            timer = setInterval(function() {
+                if (oDiv.offsetLeft == 0) {
+                    clearInterval(timer);
+                }
+                else {
+                    oDiv.style.left = oDiv.offsetLeft + 10 +'px';
+                }
+            }, 30);
+        }
+
+        function shareToIn(){
+            var oTrg = document.getElementById('trigger');
+            var oDiv = document.getElementById('div1');
+            // var oldLeft = oDiv.offsetLeft;
+
+
+            clearInterval(timer);
+
+            timer = setInterval(function() {
+                if (oDiv.offsetLeft == -150) {
+                    clearInterval(timer);
+                }
+                else {
+                    oDiv.style.left = oDiv.offsetLeft - 10 +'px';
+                }
+            }, 30);
+        }
+    </script>
+
+
+</head>
+<body>
+<div id="div1" onmouseover="shareToOut()" onmouseout="shareToIn()">
+    <span id="trigger" onmouseover="shareToOut()" >分享到</span>
+
+</div>
+</body>
+</html>
