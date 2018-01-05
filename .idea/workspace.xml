@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f8d439-ad0a-4c9b-8118-cf7acecdd9eb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/8DOM_advance_oper/add_remove_operation.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/8DOM_advance_oper/search.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/8DOM_advance_oper/sort.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/8DOM_advance_oper/table_example.html" afterPath="$PROJECT_DIR$/8DOM_advance_oper/table_example.html" />
+      <change beforePath="$PROJECT_DIR$/8DOM_advance_oper/sort.html" afterPath="$PROJECT_DIR$/8DOM_advance_oper/sort.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,8 +50,8 @@
       <file leaf-file-name="sort.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/8DOM_advance_oper/sort.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="382">
+              <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -125,9 +122,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="470" />
+    <option name="x" value="682" />
     <option name="y" value="22" />
-    <option name="width" value="1210" />
+    <option name="width" value="982" />
     <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -336,7 +333,7 @@
       <workItem from="1514958080326" duration="656000" />
       <workItem from="1514961901532" duration="3018000" />
       <workItem from="1515029544216" duration="3017000" />
-      <workItem from="1515118302915" duration="6967000" />
+      <workItem from="1515118302915" duration="8619000" />
     </task>
     <task id="LOCAL-00001" summary="deleted tut1 folder">
       <created>1513845761392</created>
@@ -457,17 +454,23 @@
       <option name="project" value="LOCAL" />
       <updated>1515033722197</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="DOM advanced operation">
+      <created>1515138512858</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1515138512858</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57794000" />
+    <option name="totallyTimeSpent" value="59446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="470" y="22" width="1210" height="973" extended-state="0" />
-    <editor active="true" />
+    <frame x="682" y="22" width="982" height="973" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21698907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24141519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -817,8 +820,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8DOM_advance_oper/sort.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="382">
+          <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
           <folding />
         </state>
       </provider>
