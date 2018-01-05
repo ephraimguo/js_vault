@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f8d439-ad0a-4c9b-8118-cf7acecdd9eb" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/8DOM_advance_oper/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/9movement/div_move.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/8DOM_advance_oper/sort.html" afterPath="$PROJECT_DIR$/8DOM_advance_oper/sort.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,41 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="table_example.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8DOM_advance_oper/table_example.html">
+      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8DOM_advance_oper/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_remove_operation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8DOM_advance_oper/add_remove_operation.html">
+      <file leaf-file-name="div_move.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9movement/div_move.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="76" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8DOM_advance_oper/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="76" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sort.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/8DOM_advance_oper/sort.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="480">
+              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -112,6 +93,8 @@
         <option value="$PROJECT_DIR$/8DOM_advance_oper/add_remove_operation.html" />
         <option value="$PROJECT_DIR$/8DOM_advance_oper/search.html" />
         <option value="$PROJECT_DIR$/8DOM_advance_oper/sort.html" />
+        <option value="$PROJECT_DIR$/8DOM_advance_oper/form.html" />
+        <option value="$PROJECT_DIR$/9movement/div_move.html" />
       </list>
     </option>
   </component>
@@ -122,9 +105,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="682" />
+    <option name="x" value="510" />
     <option name="y" value="22" />
-    <option name="width" value="982" />
+    <option name="width" value="1135" />
     <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -155,7 +138,7 @@
             <path>
               <item name="js_vault" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_vault" type="462c0819:PsiDirectoryNode" />
-              <item name="8DOM_advance_oper" type="462c0819:PsiDirectoryNode" />
+              <item name="9movement" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,7 +316,7 @@
       <workItem from="1514958080326" duration="656000" />
       <workItem from="1514961901532" duration="3018000" />
       <workItem from="1515029544216" duration="3017000" />
-      <workItem from="1515118302915" duration="8619000" />
+      <workItem from="1515118302915" duration="10368000" />
     </task>
     <task id="LOCAL-00001" summary="deleted tut1 folder">
       <created>1513845761392</created>
@@ -461,16 +444,24 @@
       <option name="project" value="LOCAL" />
       <updated>1515138512858</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="table operations done">
+      <created>1515140515555</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1515140515555</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59446000" />
+    <option name="totallyTimeSpent" value="61195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="682" y="22" width="982" height="973" extended-state="0" />
+    <frame x="510" y="22" width="1135" height="973" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24141519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20825852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -502,15 +493,14 @@
     <MESSAGE value="js basic 下" />
     <MESSAGE value="no gap sliding" />
     <MESSAGE value="DOM advanced operation" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM advanced operation" />
+    <MESSAGE value="table operations done" />
+    <option name="LAST_COMMIT_MESSAGE" value="table operations done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tut1/tut1.js" />
-    <entry file="file://$PROJECT_DIR$/tut1/tut1.js" />
     <entry file="file://$PROJECT_DIR$/tut1/tut1.html" />
     <entry file="file://$PROJECT_DIR$/2tabs/tabs.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -822,6 +812,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8DOM_advance_oper/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9movement/div_move.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding />
         </state>
       </provider>

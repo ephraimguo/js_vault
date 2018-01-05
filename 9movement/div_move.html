@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            left: 0px;
+            top: 100px;
+        }
+    </style>
+
+    <script>
+        function move() {
+
+            var oDiv = document.getElementById('div1');
+            var oBtn = document.getElementById('btn1');
+            var speed = 10;
+            clearInterval(timer);
+
+            timer = setInterval(function () {
+                if (oDiv.offsetLeft >= 300) {
+                    clearInterval(timer);
+                }
+                else {
+                    oDiv.style.left = oDiv.offsetLeft + speed + 'px';
+                }
+            }, 30);
+        }
+
+        window.onload = function () {
+
+
+
+        }
+
+
+
+
+    </script>
+</head>
+<body>
+<input id="btn1" type="button" value="move" onclick="move()">
+<div id="div1">
+
+</div>
+</body>
+</html>
