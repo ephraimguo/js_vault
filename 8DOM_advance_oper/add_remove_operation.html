@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add and remove</title>
+
+    <script>
+        window.onload = function () {
+            var oTab = document.getElementById('tab1');
+            var oTxt1 = document.getElementById('name');
+            var oTxt2 = document.getElementById('age');
+            var oBtn = document.getElementById('btn1');
+
+            oBtn.onclick = function () {
+                var oTr = document.createElement('tr');
+
+                var oTd = document.createElement('td');
+                oTd.innerHTML = oTab.tBodies[0].rows.length+1;
+                oTr.appendChild(oTd);
+
+                var oTd = document.createElement('td');
+                oTd.innerHTML = oTxt1.value;
+                oTr.appendChild(oTd);
+
+                var oTd = document.createElement('td');
+                oTd.innerHTML = oTxt2.value;
+                oTr.appendChild(oTd);
+
+                oTab.tBodies[0].appendChild(oTr);
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+姓名：<input type="text" id="name">
+年龄：<input type="text" id="age">
+<input id="btn1" type="button" value="add">
+
+<table id="tab1" border="1" width='300'>
+
+    <thead>
+    <td>ID</td>
+    <td>姓名</td>
+    <td>年龄</td>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Blue</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>zhangsan</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>lisi</td>
+        <td>51</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>wangwu</td>
+        <td>43</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>zhaoliu</td>
+        <td>18</td>
+    </tr>
+    </tbody>
+
+</table>
+
+
+</body>
+</html>
