@@ -23,9 +23,9 @@
         }
     </style>
     <script>
-
+//        var speed = 10;
         var timer = null;
-        function shareToOut(){
+        function shareToOut(boudary){
             var oTrg = document.getElementById('trigger');
             var oDiv = document.getElementById('div1');
             // var oldLeft = oDiv.offsetLeft;
@@ -34,16 +34,25 @@
             clearInterval(timer);
 
             timer = setInterval(function() {
-                if (oDiv.offsetLeft == 0) {
+                var speed = 0;
+
+                if(oDiv.offsetLeft < boudary){
+                    speed = 10;
+                }
+                else{
+                    speed = -10;
+                }
+
+                if (oDiv.offsetLeft == boudary) {
                     clearInterval(timer);
                 }
                 else {
-                    oDiv.style.left = oDiv.offsetLeft + 10 +'px';
+                    oDiv.style.left = oDiv.offsetLeft + speed +'px';
                 }
             }, 30);
         }
 
-        function shareToIn(){
+ /*       function shareToIn(){
             var oTrg = document.getElementById('trigger');
             var oDiv = document.getElementById('div1');
             // var oldLeft = oDiv.offsetLeft;
@@ -60,12 +69,13 @@
                 }
             }, 30);
         }
+        */
     </script>
 
 
 </head>
 <body>
-<div id="div1" onmouseover="shareToOut()" onmouseout="shareToIn()">
+<div id="div1" onmouseover="shareToOut(0)" onmouseout="shareToOut(-150)">
     <span id="trigger" onmouseover="shareToOut()" >分享到</span>
 
 </div>
