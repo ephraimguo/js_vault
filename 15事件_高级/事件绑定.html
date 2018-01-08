@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        window.onload = function(){
+
+            var btn = document.getElementById('btn1');
+
+            btn.addEventListener('click', function(){
+                alert('yanyu');
+            }, false);
+            btn.addEventListener('click', function(){
+                alert('is');
+            }, true);
+            btn.addEventListener('click', function(){
+                alert('super');
+            }, true);
+            btn.addEventListener('click', function(){
+                alert('handsome');
+            }, true);
+
+
+        }
+    </script>
+</head>
+<body>
+<input id="btn1" type="button" value="this is a button">
+</body>
+</html>
