@@ -2,9 +2,108 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>delay_box</title>
+    <style>
+        #profile{
+            width: 50px;
+            height: 50px;
+            background-color: #ff9934;
+            margin: 10px;
+            float:left;
+        }
+        #details{
+            width: 250px;
+            height: 180px;
+            background-color: #999999;
+            float:left;
+            display: none;
+        }
+
+    </style>
+
+    <script>
+        window.onload = function(){
+            var profile = document.getElementById('profile');
+            var details = document.getElementById('details');
+            var timer = null;
+
+            profile.onmouseover = function() {
+                clearTimeout(timer);
+                details.style.display = 'block';
+            }
+
+            profile.onmouseout = function(){
+
+                timer = setTimeout(function(){
+                    details.style.display = 'none';
+                    }, 500);
+            }
+
+            details.onmouseover = function(){
+                clearTimeout(timer);
+                details.style.display = 'block';
+            }
+
+            details.onmouseout = function(){
+
+                timer = setTimeout(function(){
+                    details.style.display = 'none';
+                }, 500);
+            }
+
+        }
+
+    </script>
+
 </head>
 <body>
-$END$
+<div id="profile"></div>
+<div id="details"></div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

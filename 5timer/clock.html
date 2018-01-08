@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>clock</title>
+
+    <script>
+        function joinZero(n){
+            if(n<10){
+                return '0'+n;
+            }
+            else{
+                return ''+n;
+            }
+
+        }
+
+
+        window.onload = function () {
+            var hrs = document.getElementById('hrs');
+            var min = document.getElementById('min');
+            var sec = document.getElementById('sec');
+
+
+            function clock(){
+                var timing = new Date();
+                hrs.innerHTML = joinZero(timing.getHours());
+                min.innerHTML = joinZero(timing.getMinutes());
+                sec.innerHTML = joinZero(timing.getSeconds());
+//                alert('set interval invoked');
+
+            }
+
+            setInterval(clock,1000);
+            clock();
+        }
+
+    </script>
 </head>
 <body>
-$END$
+
+<p>
+    <span id="hrs">11</span>:
+    <span id="min">40</span>:
+    <span id="sec">06</span>
+
+</p>
+
 </body>
 </html>

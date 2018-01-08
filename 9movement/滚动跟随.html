@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>scroll down follow</title>
+    <style>
+        #div1{
+            width: 100px;
+            height: 150px;
+            background-color: #a3a3a3;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+    <script>
+        window.onscroll = function () {
+            var oDiv = document.getElementById('div1');
+            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop || window.pageYOfet;
+
+//            oDiv.style.top = document.documentElement.clientHeight - oDiv.offsetHeight + scrollTop + 'px';
+
+              startMove(Math.ceil((document.documentElement.clientHeight - oDiv.offsetHeight)/2 )+ scrollTop);
+        }
+
+        var timer = null;
+        function startMove(tgt) {
+            var oDiv = document.getElementById('div1');
+            clearInterval(timer);
+            timer = setInterval(function () {
+                var speed = (tgt-oDiv.offsetTop)/1;
+                speed=speed>0?Math.ceil(speed):Math.floor(speed);
+
+                if(oDiv.offsetTop == tgt){
+                    clearInterval(timer);
+                }
+                else{
+                    document.getElementById('text1').value = oDiv.offsetTop;
+                    oDiv.style.top = oDiv.offsetTop + speed + 'px';
+                }
+
+            }, 30);
+        }
+    </script>
+
+</head>
+<body style="height:2000px;">
+<input type="text" id="text1" style="position:fixed;">
+
+<div id="div1">
+
+</div>
+</body>
+</html>
