@@ -17,39 +17,48 @@
     </style>
 
     <script>
-
         window.onload = function(){
-            var aDiv = document.getElementsByTagName('div');
-            for(var i=0; i<aDiv.length; i++){
-                aDiv[i].timer = null;
-                aDiv[i].alpha = 30;
-                aDiv[i].onmouseover = function(){
+            var aDivs = document.getElementsByTagName('div');
+
+            for(var i = 0; i<aDivs.length; i++){
+                aDivs[i].alpha = 30;
+                aDivs[i].timer = null;
+
+                aDivs[i].onmouseover = function () {
                     startMove(this, 100);
                 }
-                aDiv[i].onmouseout = function(){
-                    startMove(this, 50);
+
+                aDivs[i].onmouseout = function () {
+                    startMove(this, 30);
                 }
             }
         }
 
-//        var alpha = 30;
 
+//        var timer = null;
+//        var alpha = 30;
         function startMove(obj, tgt){
             clearInterval(obj.timer);
 
-            obj.timer=setInterval(function () {
-                var speed = (tgt - obj.alpha)/10;
+            obj.timer = setInterval(function () {
+                var speed = (tgt - obj.alpha)/6;
+
                 speed = speed>0?Math.ceil(speed):Math.floor(speed);
+
                 if(obj.alpha == tgt){
                     clearInterval(obj.timer);
                 }
                 else{
-                    obj.alpha =+ speed;
-                    obj.style.filter ='alpha(opcity: '+obj.alpha+');';
+                    obj.alpha += speed;
+
+                    obj.style.filter = 'alpha(opacity:'+obj.alpha+');';
                     obj.style.opacity = obj.alpha/100;
                 }
+
             }, 30);
+
         }
+
     </script>
 
 
