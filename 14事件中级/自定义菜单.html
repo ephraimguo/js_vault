@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #div1{
+            position: absolute;
+            width: 80px;
+            background-color: #ccc;
+            border: 1px solid black;
+            display: none;
+        }
+    </style>
+
+    <script>
+        document.oncontextmenu = function (ev) {
+            var oEvent = ev||event;
+            var oDiv = document.getElementById('div1');
+            oDiv.style.display = 'block';
+            oDiv.style.left = oEvent.clientX+'px';
+            oDiv.style.top = oEvent.clientY+'px';
+
+            return false;
+        }
+        document.onclick = function () {
+            var oDiv = document.getElementById('div1');
+
+            oDiv.style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+<div id="div1">
+    <ul>
+        <li>1111</li>
+        <li>1asdfsa</li>
+        <li>1dsfsd</li>
+        <li>5y5ff</li>
+        <li>sdfsdf</li>
+        <li>1asdad</li>
+    </ul>
+</div>
+
+</body>
+</html>
