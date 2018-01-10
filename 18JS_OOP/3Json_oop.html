@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var json = {a:123,
+                    b:45,
+                    c:'sdfe3',
+                    d:function(){
+                        alert('this is json.d, which is a function');
+                    },
+                    show: function(){
+                        this.sese(this.a);
+                    },
+                    sese: function(obj){
+                        alert(obj);
+                    }
+        }
+
+        window.onload = function () {
+            alert(json.a);
+            json.show();
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
