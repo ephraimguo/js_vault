@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        var str1 = 'sdf868sd7f8g0 09d8 8fsf7 8f7f89sf7s 76 d6a54';
+        var tmp = '';
+        var arr = [];
+
+
+        for(var i = 0; i<str1.length; i++){
+            if(str1.charAt(i)>='0' && str1.charAt(i)<= '9'){
+                tmp += str1.charAt(i);
+            }
+            else{
+                if (tmp) {
+                    arr.push(tmp);
+                    tmp = '';
+                }
+            }
+        }
+        if (tmp) {
+            arr.push(tmp);
+            tmp = '';
+        }
+        alert(arr);
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

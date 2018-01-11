@@ -29,7 +29,10 @@
                     oDiv.style.left = oEvent.clientX - disX + 'px';
 
                 }
-
+            }
+            oDiv.onmouseup = function () {
+                document.onmousemove = null;
+                document.onmousedown = null;
             }
         }
 
